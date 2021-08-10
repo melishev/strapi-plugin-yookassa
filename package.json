@@ -2,11 +2,11 @@
   "name": "strapi-plugin-yookassa",
   "version": "0.0.1",
   "description": "Yookassa plugin for Strapi. Allows you to easily integrate payments through Yookassa right through your admin panel.",
-  "homepage": "https://github.com/alexzaganelli/strapi-plugin-email-designer#readme",
+  "homepage": "https://github.com/melishev/strapi-plugin-yookassa#readme",
   "strapi": {
     "name": "Yookassa",
     "icon": "money-bill-wave",
-    "description": "Yookassa plugin for Strapi. Allows you to easily integrate payments through Yookassa right through your admin panel."
+    "description": "YooKassa is a service that allows you to enable the acceptance of payments on the site and receive money to the company's current account. The commission is taken from successful payments. Methods of accepting payments: bank cards, YooMoney and QIWI, Internet banks, cash, mobile balance and others."
   },
   "dependencies": {
     "@a2seven/yoo-checkout": "^1.1.2",
@@ -17,23 +17,16 @@
     "email": "matvey@melishev.ru",
     "url": "https://melishev.ru"
   },
-  "maintainers": [
-    {
-      "name": "A Strapi developer",
-      "email": "",
-      "url": ""
-    }
-  ],
   "engines": {
     "node": ">=10.16.0 <=14.x.x",
     "npm": ">=6.0.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alexzaganelli/strapi-plugin-email-designer.git"
+    "url": "git+https://github.com/melishev/strapi-plugin-yookassa.git"
   },
   "bugs": {
-    "url": "https://github.com/alexzaganelli/strapi-plugin-email-designer/issues"
+    "url": "https://github.com/melishev/strapi-plugin-yookassa/issues"
   },
   "keywords": [
     "strapi",
