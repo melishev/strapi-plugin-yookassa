@@ -1,0 +1,46 @@
+{
+  "name": "strapi-plugin-yookassa",
+  "version": "0.0.1",
+  "description": "Yookassa plugin for Strapi. Allows you to easily integrate payments through Yookassa right through your admin panel.",
+  "homepage": "https://github.com/alexzaganelli/strapi-plugin-email-designer#readme",
+  "strapi": {
+    "name": "Yookassa",
+    "icon": "money-bill-wave",
+    "description": "Yookassa plugin for Strapi. Allows you to easily integrate payments through Yookassa right through your admin panel."
+  },
+  "dependencies": {
+    "@a2seven/yoo-checkout": "^1.1.2",
+    "uuid": "^8.3.2"
+  },
+  "author": {
+    "name": "Matvey Melishev",
+    "email": "matvey@melishev.ru",
+    "url": "https://melishev.ru"
+  },
+  "maintainers": [
+    {
+      "name": "A Strapi developer",
+      "email": "",
+      "url": ""
+    }
+  ],
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": ">=6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexzaganelli/strapi-plugin-email-designer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alexzaganelli/strapi-plugin-email-designer/issues"
+  },
+  "keywords": [
+    "strapi",
+    "plugin",
+    "yookassa",
+    "payment",
+    "ecommerce"
+  ],
+  "license": "MIT"
+}

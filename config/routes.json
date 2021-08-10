@@ -1,0 +1,29 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/",
+      "handler": "yookassa.index",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/get_payment/:paymentId",
+      "handler": "yookassa.getPayment",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/create_payment/",
+      "handler": "yookassa.createPayment",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
+
