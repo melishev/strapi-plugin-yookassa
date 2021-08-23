@@ -1,3 +1,3 @@
 # Strapi plugin yookassa
 
-A quick description of yookassa.
+# WARNING plugin not ready!!!
